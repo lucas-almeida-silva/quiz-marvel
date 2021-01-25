@@ -1,0 +1,45 @@
+{
+  "bg": "https://images3.alphacoders.com/106/1060203.jpg",
+  "title": "Universo Cinematográfico da Marvel",
+  "description": "Teste os seus conhecimentos sobre o MCU (Marvel Cinematic Universe)",
+  "questions": [
+    {
+      "image": "https://www.10wallpaper.com/wallpaper/3840x2400/1804/2018_Avengers_Infinity_War_4K_Film_3840x2400.jpg",
+      "title": "Qual o primeiro filme do MDU na ordem cronológica?",
+      "description": "Essa é pra aquecer",
+      "answer": 3,
+      "alternatives": [
+        "Thor",
+        "Homem de Ferro",
+        "Capitã Marvel",
+        "Capitão América: O Primeiro Vingador"
+      ]
+    },
+    {
+      "image": "https://i.pinimg.com/originals/fc/59/c1/fc59c18b68cbeb8e3290ace9231ef935.jpg",
+      "title": "Quaiz heróis conseguiram levantar o martelo do Thor?",
+      "description": "Essa é pra quem é fã de verdade haha",
+      "answer": 0,
+      "alternatives": [
+         "Homem de Ferro e Capitão América",
+         "Hulk e Capitão América",
+         "Viúva Negra e Homem de Ferro",
+         "Visão e Capitão América"
+      ]
+    }
+  ],
+  "external": [
+    ""
+  ],
+  "theme": {
+    "colors": {
+      "primary": "#b71c1c",
+      "secondary": "#f50057",
+      "mainBg": "#1C1814",
+      "contrastText": "#FFFFFF",
+      "wrong": "#FF5722",
+      "success": "#4CAF50"
+    },
+    "borderRadius": "4px"
+  }
+}
