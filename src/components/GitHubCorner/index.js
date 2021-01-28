@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 
 const Wrapper = styled.div`
   position: absolute;
@@ -31,7 +32,6 @@ const SVGWrapper = styled.svg`
   }
 `;
 
-// eslint-disable-next-line react/prop-types
 export default function GitHubCorner({ projectUrl }) {
   return (
     <Wrapper>
@@ -45,3 +45,7 @@ export default function GitHubCorner({ projectUrl }) {
     </Wrapper>
   );
 }
+
+GitHubCorner.propTypes = {
+  projectUrl: PropTypes.func.isRequired,
+};
