@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 const Widget = styled.div`
   margin: 24px 0;
@@ -54,10 +54,22 @@ Widget.Topic = styled.a`
   border-radius: ${({ theme }) => theme.borderRadius};
   transition: .3s;
   display: block;
+
+  ${({ theme, selected }) => selected && css`
+    background-color: ${theme.colors.primary};
+  `}
+
+  ${({ theme, status }) => status === 'SUCCESS' && css`
+    background-color: ${theme.colors.success};
+  `};
+
+  ${({ theme, status }) => status === 'ERROR' && css`
+    background-color: ${theme.colors.wrong};
+  `};
   
   &:hover,
   &:focus {
-    opacity: .5;
+    opacity: ${({ selected }) => (selected ? 1 : 0.5)} 
   }
 `;
 
