@@ -2,13 +2,13 @@ import React, {
   useEffect, useState, useCallback, useMemo,
 } from 'react';
 
-import db from '../../db.json';
-import QuizContainer from '../components/QuizContainer';
-import LoadingWidget from '../components/LoadingWidget';
-import QuizBackground from '../components/QuizBackground';
-import QuizLogo from '../components/QuizLogo';
-import QuestionWidget from '../components/QuestionWidget';
-import ResultWidget from '../components/ResultWidget';
+import db from '../../../db.json';
+import QuizContainer from '../../components/QuizContainer';
+import LoadingWidget from '../../components/LoadingWidget';
+import QuizBackground from '../../components/QuizBackground';
+import QuizLogo from '../../components/QuizLogo';
+import QuestionWidget from '../../components/QuestionWidget';
+import ResultWidget from '../../components/ResultWidget';
 
 const screenStates = {
   LOADING: 'LOADING',

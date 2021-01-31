@@ -17,7 +17,7 @@ function ResultWidget({ results }) {
   return (
     <Widget>
       <Widget.Header>
-        Carregando...
+        Resultado Final
       </Widget.Header>
 
       <Widget.Content>

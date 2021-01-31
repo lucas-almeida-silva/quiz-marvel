@@ -22,5 +22,6 @@ module.exports = {
     'react/jsx-props-no-spreading': 'off',
     'react/jsx-one-expression-per-line': 'off',
     'arrow-body-style': 'off',
+    'jsx-a11y/anchor-is-valid': 'off',
   },
 };
