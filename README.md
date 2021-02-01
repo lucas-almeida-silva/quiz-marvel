@@ -1,9 +1,12 @@
 # Quiz MCU (Marvel Cinematic Universe)
 
+ <img src=".github/quiz.jpg" alt="Quiz Marvel" />
+
 # :page_with_curl: Table of Contents
 
 * [About](#information_source-about)
 * [Technologies](#computer-technologies)
+* [Images](#camera-images)
 * [How to run](#seedling-how-to-run)
 * [License](#pencil-license)
 
@@ -19,6 +22,14 @@ In addition, it is possible to access and answer other quizzes developed by othe
 - Styled Components
 - Framer Motion
 
+# :camera: Images
+
+
+<p float="left" align="center">
+  <img src=".github/question-quiz.jpg" alt="Pergunta quiz" style="margin-right: 10px" />
+  <img src=".github/result-quiz.jpg" alt="Resultado quiz" align="top" style="margin-left: 40px" />
+</p>
+
 # :seedling: How to run
 
 ```bash
@@ -33,8 +44,8 @@ $ yarn
 # or npm install
 
 # Run the application
-$ yarn start
-# or npm start
+$ yarn dev
+# or npm run dev
 ```
 Access the API at http://localhost:3000
 
