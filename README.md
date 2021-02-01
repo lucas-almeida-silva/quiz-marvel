@@ -1,6 +1,6 @@
 # Quiz MCU (Marvel Cinematic Universe)
 
- <img src=".github/quiz.jpg" alt="Quiz Marvel" />
+<img src=".github/homepage-quiz.jpg" alt="Quiz Marvel" />
 
 # :page_with_curl: Table of Contents
 
