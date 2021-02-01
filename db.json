@@ -26,6 +26,54 @@
          "Viúva Negra e Homem de Ferro",
          "Visão e Capitão América"
       ]
+    },
+    {
+      "image": "https://cinepop.com.br/wp-content/uploads/2019/07/Thanos-living-tribunal.jpg",
+      "title": "Em qual filme Thanos fez sua primeira aparição?",
+      "description": "Essa eu quero ver!",
+      "answer": 0,
+      "alternatives": [
+         "Vingadores",
+         "Guardiões da Galáxia",
+         "Vingadores: Guerra Infinita",
+         "Thor Ragnarok"
+      ]
+    },
+    {
+      "image": "https://exame.com/wp-content/uploads/2016/09/size_960_16_9_thor5.jpg",
+      "title": "Qual o nome do martelo do Thor?",
+      "description": "Essa eu quero ver!",
+      "answer": 1,
+      "alternatives": [
+         "Vanir",
+         "Mjolnir",
+         "Munir",
+         "Mijolnir"
+      ]
+    },
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1I5DVQWAGtruXpxKnbo3rmcxbvevsUmNcBA&usqp=CAU",
+      "title": "Quais são as jóias do infinito?",
+      "description": "Difícil hein",
+      "answer": 2,
+      "alternatives": [
+         "Mente, Realidade, Espaço, Poder, Tempo e Velocidade",
+         "Espaço, Mente, Realidade, Verdade, Tempo e Alma",
+         "Espaço, Mente, Realidade, Poder, Tempo e Alma",
+         "Poder, Alma, Mente, Verdade, Força e Tempo "
+      ]
+    },
+    {
+      "image": "https://observatoriodocinema.uol.com.br/wp-content/uploads/2020/06/avengers-endgame-ultrapassa-avatar-e-torna-se-no-maior-sucesso-do-cinema-1563877449700.jpg",
+      "title": "Em qual filme Stan Lee fez sua última aparição?",
+      "description": "Essa você sabe!",
+      "answer": 3,
+      "alternatives": [
+         "Vingadores: Guerra Infinita",
+         "Capitã Marvel",
+         "Homem Aranha: Longe de Casa",
+         "Vingadores: Ultimato"
+      ]
     }
   ],
   "external": [

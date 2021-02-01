@@ -13,7 +13,7 @@ function QuestionWidget({
   addResult,
   onSubmit,
 }) {
-  const [selectedAlternative, setSelectedAlternative] = useState(null);
+  const [selectedAlternative, setSelectedAlternative] = useState(undefined);
   const [isQuestionSubmited, setIsQuestionSubmited] = useState(false);
 
   const hasSelectedAlternative = useMemo(() => {
@@ -37,7 +37,7 @@ function QuestionWidget({
       addResult(isCorrect);
       onSubmit();
       setIsQuestionSubmited(false);
-      setSelectedAlternative(null);
+      setSelectedAlternative(undefined);
     }, 2000);
   }, [onSubmit, isCorrect]);
 
