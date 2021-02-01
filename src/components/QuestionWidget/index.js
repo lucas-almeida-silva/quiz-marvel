@@ -38,7 +38,7 @@ function QuestionWidget({
       onSubmit();
       setIsQuestionSubmited(false);
       setSelectedAlternative(null);
-    }, 3000);
+    }, 2000);
   }, [onSubmit, isCorrect]);
 
   return (

@@ -47,5 +47,5 @@ export default function GitHubCorner({ projectUrl }) {
 }
 
 GitHubCorner.propTypes = {
-  projectUrl: PropTypes.func.isRequired,
+  projectUrl: PropTypes.string.isRequired,
 };

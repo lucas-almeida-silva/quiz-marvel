@@ -1,9 +1,17 @@
-import React, { useMemo } from 'react';
+import React, { useCallback, useMemo } from 'react';
+import { useRouter } from 'next/router';
 import PropTypes from 'prop-types';
 
 import Widget from '../Widget';
+import Button from '../Button';
 
-function ResultWidget({ results }) {
+function ResultWidget({ results, resetGame }) {
+  const router = useRouter();
+
+  const handleReturnToHomePage = useCallback(() => {
+    router.push('/');
+  }, [router]);
+
   const totalCorrects = useMemo(() => {
     return results.reduce((sum, result) => {
       if (result) {
@@ -24,11 +32,26 @@ function ResultWidget({ results }) {
         <p>Você acertou {totalCorrects} perguntas</p>
         <ul>
           {results.map((result, index) => (
-            <li key={result}>
+            <li key={`result__${index}`}>
               #{index + 1}: {result ? 'Correta' : 'Incorreta'}
             </li>
           ))}
         </ul>
+
+        <Button
+          type="button"
+          onClick={resetGame}
+        >
+          Jogar novamente
+        </Button>
+
+        <Button
+          type="button"
+          onClick={handleReturnToHomePage}
+          style={{ marginTop: '10px' }}
+        >
+          Voltar ao início
+        </Button>
       </Widget.Content>
     </Widget>
   );
@@ -36,6 +59,7 @@ function ResultWidget({ results }) {
 
 ResultWidget.propTypes = {
   results: PropTypes.arrayOf(PropTypes.bool).isRequired,
+  resetGame: PropTypes.func.isRequired,
 };
 
 export default ResultWidget;

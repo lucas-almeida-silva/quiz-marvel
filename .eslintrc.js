@@ -23,5 +23,6 @@ module.exports = {
     'react/jsx-one-expression-per-line': 'off',
     'arrow-body-style': 'off',
     'jsx-a11y/anchor-is-valid': 'off',
+    'react/no-array-index-key': 'off',
   },
 };
