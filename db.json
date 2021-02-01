@@ -77,8 +77,9 @@
     }
   ],
   "external": [
-    "https://aluraquiz-css.omariosouto.vercel.app/",
-    "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
+    "https://avengersquiz.penadev.vercel.app/",
+    "https://wanda-vision-aluraquiz.marilira.vercel.app/",
+    "https://alura-quiz-avengers.fernanda-kipper.vercel.app/"
   ],
   "theme": {
     "colors": {
